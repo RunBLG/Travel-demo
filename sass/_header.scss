@@ -1,0 +1,77 @@
+.header {
+  width: 100%;
+  position: relative;
+  &-background {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgba(63, 5, 97, 0.4), #40066166),
+      url(../img/div.png);
+    position: relative;
+    background-size: cover;
+  }
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    padding: 62px 147px 38px 147px;
+    background-color: #36135499;
+    width: 100%;
+    span {
+      position: absolute;
+      left: 200px;
+      font-size: 30px;
+      font-weight: 800;
+      color: #ffffff;
+    }
+  }
+  &-main {
+    height: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    &-discover {
+      font-size: 112px;
+      font-weight: 900;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+    &-world {
+      text-align: center;
+      font-size: 100px;
+      font-family: "Beyond The Mountains";
+    }
+    &-button {
+      width: 223px;
+      height: 53px;
+      display: flex;
+      margin: 50px auto;
+      align-items: center;
+      padding-left: 46px;
+      border-radius: 100px;
+      background-image: linear-gradient(
+        90deg,
+        #fa9e1b 0%,
+        #8d4fff 50%,
+        #fa9e1b 100%
+      );
+      a {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 900;
+      }
+    }
+  }
+}
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0 60px;
+  &-item a {
+    color: #ffffff;
+  }
+}

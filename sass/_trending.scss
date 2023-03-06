@@ -1,0 +1,49 @@
+.trending-title {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+.trending-item {
+  width: 100%;
+  max-width: 1224px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  row-gap: 50px;
+}
+.trend {
+  display: flex;
+  gap: 15px;
+  &-content {
+    &-title {
+      font-weight: 700;
+      font-size: 16px;
+      text-transform: uppercase;
+      a {
+        color: #2d2d2c;
+      }
+      :hover {
+        color: #fa9e1b;
+      }
+    }
+    &-price {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 19px;
+      margin-top: 4px;
+      margin-bottom: 5px;
+      color: #fa9e1b;
+    }
+    &-location {
+      font-weight: 400;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #929191;
+    }
+  }
+}

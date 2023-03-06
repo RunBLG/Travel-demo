@@ -1,0 +1,28 @@
+@import "reset";
+@import "variables";
+@import "global";
+@import "header";
+@import "search";
+@import "tour";
+@import "package";
+@import "offer";
+@import "testimonials";
+@import "trending";
+
+@font-face {
+  font-family: "Beyond";
+  src: url("../font/Beyond.woff2") format("woff2"),
+    url("../font/Beyond.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Beyond The Mountains";
+  src: url("../font/BeyondTheMountains.woff2") format("woff2"),
+    url("../font/BeyondTheMountains.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
